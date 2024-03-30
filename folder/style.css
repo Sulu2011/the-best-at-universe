@@ -1,0 +1,483 @@
+.body{
+    margin: 0,auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salam{
+    color: red;
+    animation-duration:2s;
+    animation-name: example;
+   animation-iteration-count: infinite;
+}
+@keyframes example{
+ 25%{
+    color: aqua;
+ }
+ 50%{
+    color: yellow;
+ }
+ 75%{
+    color: brown;
+ }
+ 100%{
+    color: darkgoldenrod;
+ }
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.link{
+    color:black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.du{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkolivegreen;
+    animation-name: button;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+   height: 20px;
+   width: 180px;
+   border: none;
+   margin-top: 10px;
+}
+@keyframes button{
+5%{
+    background-color: aquamarine;
+}
+10%{
+    background-color: blueviolet;
+}
+15%{
+    background-color: brown;
+
+}
+20%{
+    background-color: cadetblue;
+
+}
+25%{
+    background-color: rgb(255, 204, 0);
+}
+30%{
+    background-color: darkblue;
+}
+35%{
+    background-color: darkslategray;
+
+}
+40%{
+    background-color: fuchsia;
+
+}
+45%{
+    background-color: darkgreen;
+}
+50%{
+    background-color: lawngreen;
+}
+55%{
+    background-color: indianred;
+
+}
+60%{
+    background-color: mediumvioletred;
+}
+65%{
+    background-color: khaki;
+
+}
+70%{
+    background-color: midnightblue;
+
+}
+80%{
+    background-color: red;
+}
+90%{
+    background-color: greenyellow;
+
+}
+100%{
+    background-color: gold;
+}   /*Bu animasiyani  ozum oturub yazmisam*/
+}
+/*birde  html de 2024 yazisini ozum https://kb.iu.edu/d/abai saytindan tapdim yeni ozumundur*/
+.challanges{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+    gap: 5px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 180, 5);
+    height: 60px;
+    width: 95%;
+    
+}
+.lin{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.btn{
+    display: flex;
+}
+.btn2{
+    background-color: rgb(57, 180, 5);
+    border: none;
+}
+.Done{
+    margin-right: 20px;
+    margin-top: 18px;
+}
+.pyt{
+    margin-top: 18px;
+}
+.lin{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.lin1{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.js{
+    margin-top: 18px;
+}
+.Ongoing{
+    margin-top: 20px;
+    margin-right: 18px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(186, 236, 6);
+    height: 60px;
+    width: 95%;
+}
+.btn3{
+    display: flex;
+}
+.btn4{
+
+    background-color: rgb(186, 236, 6);
+    border: none;
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(236, 52, 6);
+    height: 60px;
+    width: 95%;
+}
+.lin2{
+    margin-top: 18px;
+    margin-left: 20px;
+}
+.btn5{
+    display: flex;
+}
+.btn6{
+    background-color: rgb(236, 52, 6);
+    border: none;
+}
+.Coming{
+    margin-top: 18px;
+    margin-right: 20px;
+}
+.HTML{
+    margin-top: 18px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(57, 180, 5);
+    height: 85px;
+    width: 95%;
+}
+.https{
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-top: 28px;
+  margin-left: 20px;
+
+}
+.haro{
+display: flex;
+}
+.baton{
+    background-color: rgb(57, 180, 5);
+    border: none;
+    height: 10%;
+}
+.onfo{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.dav{
+    display: flex;
+    flex-direction: column;
+}
+.languages{
+    margin-top: -10px;
+}
+li{
+   list-style-type:none; 
+}
+.boxa{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(186,236,6);
+    height: 85px;
+    width: 95%;
+}
+.baton1{
+    background-color: rgb(186,236,6);
+    border: none;
+    height: 10%;
+}
+.twitter{
+    display: flex;
+    flex-direction: column;
+}
+.Name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.png{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    gap: 10px;
+}
+.linedin{
+    height: 40px;
+    width: 50px;
+}
+.twit{
+    height: 40px;
+}
+.git{
+    height: 40px;
+}
+.lorem{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.santra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titles{
+    display: flex;
+    margin-left: 100px;
+}
+.plant{
+    height: 16px;
+    width: 20px;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.first{
+    position: relative;
+    display: flex;
+    margin-top: -15px;
+     flex-direction: row;
+}
+.second{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.kompu{
+    height: 16px;
+}
+.third{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.dvp{
+    height: 16px;
+}
+.fourth{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.fire{
+    height: 15px;
+    width: 30px;
+}
+.Skills{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+ margin-left: 600px;
+}
+.Fir{
+    position: relative;
+    display: flex;
+    margin-top: -15px;
+     flex-direction: row;
+}
+.Sec{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.Thi{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.For{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.tick{
+    height: 16px;
+}
+.Qualifi{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+ margin-left: 1000px;
+}
+.bir{
+    position: relative;
+    display: flex;
+    margin-top: -15px;
+     flex-direction: row;
+}
+.kitab{
+    height: 18px;
+}
+.iki{
+    position: relative;
+    display: flex;
+     flex-direction: row;
+}
+.student{
+    height: 18px;
+}
+.proqramming{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+.bto{
+    display: flex;
+    flex-direction: row;
+margin-top: 20px;
+margin-left: 480px;
+gap: 5px;
+
+}
+.bto1{
+    margin-top: 5px;
+    margin-left: 480px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.bto2{
+    margin-left: 480px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+#ad{
+    border: none;
+    border-radius: 10px;
+}
+.duymo{
+    background-color: rgb(216, 99, 26);
+}
+.duym{
+    background-color: rgb(71, 71, 240);
+}
+.duym1{
+    background-color: chartreuse;
+}
+.duym2{
+    background-color: rgb(6, 6, 186);
+}
+.duym3{
+    background-color: rgb(210, 165, 30);
+}
+.duym4{
+    background-color: cornflowerblue;
+}
+.duym5{
+    background-color: blueviolet;
+}
+.duym6{
+    background-color: darkseagreen;
+}
+.duym7{
+    background-color: darkturquoise;
+}
+.duym8{
+    background-color: darkred;
+}
+.duym9{
+    background-color: khaki;
+}
+.duym10{
+    background-color: crimson;
+}
+.duym11{
+    background-color: darkorange;
+}
+.duym12{
+    background-color: lightskyblue;
+}
+.duym13{
+    background-color: goldenrod;
+}
+.ho{
+    margin-top: 130px;
+    margin-left: 400px;
+}
